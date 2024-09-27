@@ -6,3 +6,5 @@ import streamlit as st
 print("Caio")
 
 print("Caio 2")
+
+print("Caio 3")
