@@ -3,7 +3,6 @@ from io import BytesIO
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-#import XlsxWriter as xls
 
 
 def rd1_question_9(df):
@@ -270,8 +269,8 @@ def to_excel(df):
 
     worksheet.set_column("A:A", None)
 
-    writer.save()
+    #writer.save()
 
-    processed_data = output.getvalue()
+    #processed_data = output.getvalue()
 
-    return processed_data
+    #return processed_data
