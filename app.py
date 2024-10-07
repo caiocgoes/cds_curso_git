@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-import sr.anwsers_2 as asw
+import sr.answers as asw
 from sr.extraction import lead_data
 
 st.set_page_config(layout="wide")
