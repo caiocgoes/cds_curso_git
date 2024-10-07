@@ -81,7 +81,7 @@ def create_answers_section(df):
 
 
 def create_main_layout():
-    df = load_data()
+    df = lead_data()
 
     create_dataframe_section(df)
 
