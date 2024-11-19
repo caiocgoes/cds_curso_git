@@ -86,7 +86,6 @@ def create_main_layout():
     create_dataframe_section(df)
 
     create_answers_section(df)
-print("ola")
 
 
 if __name__ == "__main__":
